@@ -1,0 +1,16 @@
+{
+  "country_code": "IN",
+  "country_name": "India",
+  "currency": "INR",
+  "language": "en",
+  "payment_methods": [
+    "Bank Transfer",
+    "UPI"
+  ],
+  "supported_assets": [
+    "USDT"
+   
+  ],
+  "status": "active",
+  "note": "Mock regional configuration for documentation purposes only."
+}
