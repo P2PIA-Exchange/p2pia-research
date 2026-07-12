@@ -1,76 +1,161 @@
+p2pia-research/
+│
+├── README.md
+├── LICENSE
+├── CONTRIBUTING.md
+├── CHANGELOG.md
+│
+├── docs/
+│   ├── transaction-lifecycle.md
+│   ├── liquidity-provider-model.md
+│   ├── payment-verification.md
+│   └── dispute-resolution.md
+│
+├── assets/
+│   ├── architecture.svg
+│   └── workflow.svg
+│
+└── examples/
+    ├── order.json
+    ├── payment.json
+    └── country.json
+
 # P2PIA Research
 
-## Building the Future of P2P Fiat-to-Crypto Transaction Infrastructure
+> Researching the next generation of peer-to-peer fiat and cryptocurrency transaction infrastructure.
 
-P2PIA Research explores the architecture, challenges, and future direction of peer-to-peer fiat-to-crypto exchange systems.
+P2PIA Research is a public research repository exploring architectural concepts, workflow design, and transaction protocols for modern peer-to-peer cryptocurrency exchanges.
 
-The goal is to study how traditional P2P trading models can evolve into more reliable, predictable, and secure transaction protocols.
+This repository focuses on engineering concepts rather than production implementations.
 
-Instead of focusing only on asset custody, P2PIA Research investigates the complete transaction lifecycle:
+## Repository Scope
 
-- Order creation
+This repository contains research material related to:
+
+- Transaction workflows
+- Regional payment infrastructure
 - Liquidity coordination
-- Payment verification
-- Settlement automation
-- Escrow management
+- Escrow concepts
+- Settlement lifecycle
 - Dispute prevention
-- Transaction accountability
+- System architecture
 
+It intentionally excludes:
 
-## Why P2P Exchange Infrastructure Needs Evolution
+- Production source code
+- Wallet implementations
+- Authentication systems
+- Trading engines
+- Internal APIs
+- Financial infrastructure
 
-Traditional P2P marketplaces solved an important problem by connecting buyers and sellers.
+All examples are educational and use mock data only.# P2PIA Research
 
-However, many operational challenges remain:
+> Researching the next generation of peer-to-peer fiat and cryptocurrency transaction infrastructure.
 
-- Manual price negotiation
-- Inconsistent pricing
-- Counterparty uncertainty
-- Payment delays
-- Settlement friction
-- Complex dispute resolution
-- Limited accountability between participants
+P2PIA Research is a public research repository exploring architectural concepts, workflow design, and transaction protocols for modern peer-to-peer cryptocurrency exchanges.
 
-P2PIA Research explores a different approach:
+This repository focuses on engineering concepts rather than production implementations.
 
-Transforming P2P trading from a marketplace model into a structured transaction protocol.
+## Repository Scope
 
+This repository contains research material related to:
 
-## Core Research Areas
+- Transaction workflows
+- Regional payment infrastructure
+- Liquidity coordination
+- Escrow concepts
+- Settlement lifecycle
+- Dispute prevention
+- System architecture
 
-### Transaction Protocol Design
+It intentionally excludes:
 
-Studying how a P2P exchange can coordinate every step of a transaction through predefined rules and workflows.
+- Production source code
+- Wallet implementations
+- Authentication systems
+- Trading engines
+- Internal APIs
+- Financial infrastructure
 
-### Fiat Settlement Infrastructure
-
-Researching methods for connecting local payment systems with digital asset settlement.
-
-### Liquidity Provider Networks
-
-Exploring professional liquidity models where participants operate as service providers rather than anonymous traders.
-
-### Payment Verification Systems
-
-Analyzing methods to reduce payment-related fraud, delays, and disputes.
-
-### Escrow Evolution
-
-Understanding the role of escrow as one security layer inside a broader transaction security framework.
-
-
-## Design Principles
-
-P2PIA Research focuses on several core principles:
-
-- Reduce transaction friction
-- Improve settlement reliability
-- Standardize execution workflows
-- Increase participant accountability
-- Minimize disputes before they occur
-- Adapt to local payment infrastructures
-
+All examples are educational and use mock data only.
 
 ## Architecture Vision
 
 A next-generation P2P exchange should combine:
+
+- Predictable transaction workflows
+- Standardized execution rules
+- Local payment infrastructure awareness
+- Collateral-backed liquidity providers
+- Transparent settlement procedures
+- Independent dispute resolution
+- Automation where appropriate
+- Human review where necessary
+
+Rather than functioning solely as a marketplace, the platform should coordinate every stage of a transaction through clearly defined protocols.
+
+## Repository Structure
+
+/docs
+Research documents
+
+/examples
+Mock JSON examples
+
+/assets
+Architecture diagrams
+
+This repository does not contain production software.
+
+## Roadmap
+
+- [x] Research repository
+- [ ] Public demo API
+- [ ] Developer documentation
+- [ ] SDK examples
+- [ ] Integration guides
+- [ ] Regional payment documentation
+
+# Contributing
+
+Community feedback is welcome.
+
+Please use GitHub Issues to report documentation improvements or suggest architectural discussions.
+
+This repository does not accept production code contributions.
+
+# Changelog
+
+## v0.1.0
+
+- Initial public research repository
+- Research overview
+- Architecture documentation
+
+
+{
+  "order_id": "demo-order-001",
+  "pair": "BTC/USDT",
+  "amount": 0.25,
+  "status": "Pending",
+  "country": "india"
+}
+
+Customer
+     │
+     ▼
+Transaction Request
+     │
+     ▼
+Liquidity Provider
+     │
+     ▼
+Escrow
+     │
+     ▼
+Settlement
+     │
+     ▼
+Completed
+
