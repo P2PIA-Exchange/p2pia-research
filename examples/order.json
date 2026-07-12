@@ -1,0 +1,12 @@
+{
+  "order_id": "demo-order-001",
+  "market": "BTC/USDT",
+  "side": "buy",
+  "amount": 0.25,
+  "price": 108500,
+  "currency": "USD",
+  "country": "India",
+  "status": "Pending",
+  "created_at": "2026-07-11T12:00:00Z",
+  "note": "Mock example for documentation only."
+}
