@@ -1,0 +1,12 @@
+{
+  "payment_id": "demo-payment-001",
+  "order_id": "demo-order-001",
+  "method": "Bank Transfer",
+  "currency": "USD",
+  "amount": 2500.00,
+  "status": "Confirmed",
+  "reference": "TXN-DEMO-20260711",
+  "verified": true,
+  "completed_at": "2026-07-11T12:15:00Z",
+  "note": "Mock payment record for documentation purposes only."
+}
