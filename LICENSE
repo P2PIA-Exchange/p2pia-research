@@ -1,0 +1,37 @@
+# Contributing
+
+Thank you for your interest in P2PIA Research.
+
+This repository is intended to share research materials, architectural concepts, and educational examples related to peer-to-peer cryptocurrency transaction infrastructure.
+
+## Ways to Contribute
+
+We welcome contributions such as:
+
+- Documentation improvements
+- Typo and grammar corrections
+- Architecture discussions
+- Research references
+- Mock examples for educational purposes
+
+## Before Opening a Pull Request
+
+Please ensure that:
+
+- Your contribution is related to the scope of this repository.
+- No production code, credentials, or confidential information is included.
+- Examples use mock or fictional data only.
+
+## Issues
+
+If you find an error or have a suggestion, please open a GitHub Issue before submitting major changes.
+
+## Code of Conduct
+
+Please be respectful and constructive in all discussions.
+
+## Security
+
+This repository does not contain production infrastructure or operational systems.
+
+Please do not submit production code or security-sensitive information through pull requests.
